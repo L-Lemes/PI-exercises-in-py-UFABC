@@ -5,10 +5,9 @@ def format_to_int(list):
   array = []
   for i in list:
     array.append(int(i))
+  return array
 
 def already_exist(a, list):
-  return array   
-
   for i in list:
     if a == i:
       return True

@@ -15,4 +15,4 @@ for i in range(len(array)):
       if array[i] not in repetidos:
         repetidos.append(array[i])
 
-# print(len(repetidos))
+print(len(repetidos))
